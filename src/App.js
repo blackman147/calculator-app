@@ -25,8 +25,10 @@ const App = () => {
     if(equation !== ""){
         let result = eval(equation)
         setResult(result)
+        setEquation("")
     }else{
           setResult(0)
+          setEquation("")
     }
   }
   const clearResult = ()=>{

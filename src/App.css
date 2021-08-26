@@ -3,7 +3,6 @@
   margin:auto;
   width:25%;
   padding:10px;
-
   top:5rem;
   position: relative;
 }
@@ -15,7 +14,12 @@
   text-align: center;
   -webkit-box-shadow: 2px 2px 18px 0px rgba(150,153,0.67);
   -moz-box-shadow: 2px 2px 18px 0px rgba(138,138, 138, 138, 0.67);
-  box-shadow: 2px 2px 18px 0px rgba(143,144,144, 0.67);
+  box-shadow: 2px 2px 18px 0px rgba(7, 231, 231, 0.67);
+}
+.screen-div{
+  border-style: solid;
+  border-color: purple;
+  background-color: white;
 }
 .button-container{
   margin-top: 1rem;
@@ -28,7 +32,7 @@
   padding: 20px 30px;
   margin-right: 15px;
   margin-bottom: 15px;
-  background-color: rgb(216, 10, 10);
+  background-color: rgb(231, 19, 196);
   color: white;
   border-radius: 80px;
   border:unset;
@@ -41,6 +45,16 @@
   border: unset;
   border-radius: 5px;
   margin-bottom: 15px;
+}
+
+.num-button-zero{
+  padding: 20px 30px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(231, 19, 196);
+  color: white;
+  border-radius: 80px;
+  border:unset;
 }
 .whole-container{
   padding-right: 100px;
